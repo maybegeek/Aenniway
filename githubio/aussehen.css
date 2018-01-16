@@ -1,0 +1,228 @@
+@font-face {
+  font-family: 'Aenniway-Web';
+  src: url('../Webfont/Aenniway-BoldItalic-Web.eot');
+  src: url('../Webfont/Aenniway-BoldItalic-Web.eot?#iefix') format('embedded-opentype'),
+    url('../Webfont/Aenniway-BoldItalic-Web.woff2') format('woff2'),
+    url('../Webfont/Aenniway-BoldItalic-Web.woff') format('woff'),
+    url('../Webfont/Aenniway-BoldItalic-Web.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Aenniway-Web';
+  src: url('../Webfont/Aenniway-Regular-Web.eot');
+  src: url('../Webfont/Aenniway-Regular-Web.eot?#iefix') format('embedded-opentype'),
+    url('../Webfont/Aenniway-Regular-Web.woff2') format('woff2'),
+    url('../Webfont/Aenniway-Regular-Web.woff') format('woff'),
+    url('../Webfont/Aenniway-Regular-Web.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aenniway-Web';
+  src: url('../Webfont/Aenniway-Italic-Web.eot');
+  src: url('../Webfont/Aenniway-Italic-Web.eot?#iefix') format('embedded-opentype'),
+    url('../Webfont/Aenniway-Italic-Web.woff2') format('woff2'),
+    url('../Webfont/Aenniway-Italic-Web.woff') format('woff'),
+    url('../Webfont/Aenniway-Italic-Web.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Aenniway-Web';
+  src: url('../Webfont/Aenniway-Bold-Web.eot');
+  src: url('../Webfont/Aenniway-Bold-Web.eot?#iefix') format('embedded-opentype'),
+    url('../Webfont/Aenniway-Bold-Web.woff2') format('woff2'),
+    url('../Webfont/Aenniway-Bold-Web.woff') format('woff'),
+    url('../Webfont/Aenniway-Bold-Web.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body.aenniway {
+  font-family:"Aenniway-Web", cursive;
+  color: #2c3e50;
+  font-size: 32px;
+}
+
+.farbe {
+  background-color:#663399;
+  color:white;
+}
+
+header h1 {
+  font: normal normal 3.5em/90% "Aenniway-Web", sans-serif;
+}
+
+header .teaser {
+  font: italic normal 1.6em/104% "Aenniway-Web", sans-serif;
+  padding-left:0.5em;
+}
+
+p.fonti {
+  text-align: right;
+  padding-right:40px;
+}
+
+main {
+  line-height:1.1;
+  font-size:1.2em;
+}
+
+main h2 {
+  font-size: 1.7em;
+}
+
+nav {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+nav a {
+  padding-left:0.2em;
+  padding-right:0.2em;
+}
+
+a {
+  text-decoration:none;
+  border-bottom: 3px dotted #663399;
+  padding-bottom:4px;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  color:#663399;
+}
+
+a:hover,
+a:focus,
+a:active {
+  border-bottom: 3px solid #663399;
+}
+
+.farbe a,
+.farbe a:hover,
+.farbe a:active,
+.farbe a:visited,
+.farbe a:focus {
+  color:white;
+}
+
+.farbe a:hover,
+.farbe a:focus,
+.farbe a:active {
+  border-bottom: 3px solid white;
+}
+
+.farbe a {
+  text-decoration:none;
+  border-bottom: 3px dotted white;
+  padding-bottom:4px;
+}
+
+.showoff {
+  font-size: 1.1em;
+}
+
+.showoffabc {
+  font-size: 2.1em;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.bold {
+  font-weight:bold;
+}
+
+.bolditalic {
+  font-style:italic;
+  font-weight:bold;
+}
+
+.row.last {
+  margin-bottom:0;
+}
+
+button#liga:after,
+button#kern:after,
+button#calt:after {
+  content: " on ";
+}
+
+button#italic:after,
+button#bold:after {
+  content: " off";
+}
+
+button#liga.on:after,
+button#kern.on:after,
+button#calt.on:after {
+  content: " off";
+}
+
+button#italic.on:after,
+button#bold.on:after {
+  content: " on ";
+}
+
+#live {
+  font-size: 1.2em;
+  -webkit-font-feature-settings: "liga" 1, "kern" 1, "calt" 1;
+  -moz-font-feature-settings: "liga" 1, "kern" 1, "calt" 1;
+  -ms-font-feature-settings: "liga" 1, "kern" 1, "calt" 1;
+  font-feature-settings: "liga" 1, "kern" 1, "calt" 1;
+}
+
+#live.ligaoff {
+  font-feature-settings: "liga" 0;
+}
+
+#live.kernoff {
+  font-feature-settings: "kern" 0;
+}
+
+#live.ligaoff.kernoff {
+  font-feature-settings: "liga" 0, "kern" 0;
+}
+
+#live.caltoff {
+  font-feature-settings: "calt" 0;
+}
+
+#live.caltoff.kernoff {
+  font-feature-settings: "kern" 0, "calt" 0;
+}
+
+#live.caltoff.ligaoff {
+  font-feature-settings: "liga" 0, "calt" 0;
+}
+
+#live.caltoff.kernoff.ligaoff {
+  font-feature-settings: "kern" 0, "liga" 0, "calt" 0;
+}
+
+@media only screen and (max-width:960px){
+  nav a {
+    font-weight:normal;
+    font-size:0.7em;
+
+  }
+}
+
+@media only screen and (max-width:650px){
+  nav span {
+    display:block;
+    text-align:center;
+    margin-bottom:12px;
+  }
+}
