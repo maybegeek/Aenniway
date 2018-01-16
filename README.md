@@ -29,3 +29,7 @@ html {
 ## Autoren
 
 Anna-Lisa Wehmann & Christoph Pfeiffer
+
+## License
+
+SIL Open Font License, Version 1.1
