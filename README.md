@@ -1,4 +1,4 @@
-# aenniway
+# Aenniway
 Aenniway, fontifizierte Handschrift
 
 
@@ -22,3 +22,6 @@ html {
   font-family: "Aenniway-Web", cursive;
 }
 ```
+## Dokumentation und Spielwiese
+
+[https://maybegeek.github.io/aenniway](https://maybegeek.github.io/aenniway)
