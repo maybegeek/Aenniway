@@ -28,4 +28,4 @@ html {
 
 ## Autoren
 
-Anna-Lisa Wehann & Christoph Pfeiffer
+Anna-Lisa Wehmann & Christoph Pfeiffer
