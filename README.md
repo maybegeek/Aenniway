@@ -25,3 +25,7 @@ html {
 ## Dokumentation und Spielwiese
 
 [https://maybegeek.github.io/aenniway](https://maybegeek.github.io/aenniway)
+
+## Autoren
+
+Anna-Lisa Wehann & Christoph Pfeiffer
