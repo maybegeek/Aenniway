@@ -1,3 +1,11 @@
+Copyright (c) 2017–2018, Anna-Lisa Wehmann & Christoph Pfeiffer. All rights reserved.
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+
+-----------------------------------------------------------
+
 Full License Text
 
 SIL OPEN FONT LICENSE
