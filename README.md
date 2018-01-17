@@ -1,8 +1,24 @@
 # Aenniway
-Aenniway, fontifizierte Handschrift
+Aenniway, liebevoll fontifizierte Handschrift!
 
+[Dokumentation und Spielwiese](https://maybegeek.github.io/aenniway) mit Live-Ansicht der Schrift.
 
-## html und css
+* fontifizierte Handschrift
+* in vier Schriftschnitten (regular, bold, bold-italic, italic)
+* ordentlicher Glyphenvorrat (151)
+* mit Kontextalternativen
+* mit Ligaturen
+* mit Fraktalen
+* mit angepasstem Kerning
+* mit Einhorn!
+
+## OTF & TTF
+
+Alle Dateien können entweder über git, als gesammeltes Paket vermittels des Download-Buttons oder bei Releases heruntergeladen werden.
+
+Für die Einbindung auf dem eigenen Rechner sind dann die beinhalteten Ordner OTF oder TTF interessant. Die darin enthaltenen Schriftschnittdateien nach Art des jeweiligen Betriebssystems installieren (oftmals reicht der Doppelklick, um Hinweise zur Installation zu erhalten).
+
+## HTML und CSS
 
 Version 1.5.01:
 
@@ -22,9 +38,6 @@ html {
   font-family: "Aenniway-Web", cursive;
 }
 ```
-## Dokumentation und Spielwiese
-
-[https://maybegeek.github.io/aenniway](https://maybegeek.github.io/aenniway)
 
 ## Autoren
 
