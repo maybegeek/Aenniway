@@ -40,6 +40,13 @@ html {
 }
 ```
 
+## Akzidenz
+
+* Ansicht der Glyphen, Informationen usw.: [https://maybegeek.github.io/Aenniway](https://maybegeek.github.io/Aenniway)
+* [Anmutungsähnlichkeit und Besonderheiten bei Handschriften-S](https://maybegeek.github.io/Aenniway/akzidenz/s-anmutung.htm)
+* [Liste der s, S, ẞ und ß bei handwriting fonts](https://maybegeek.github.io/Aenniway/akzidenz/s-galerie.htm)
+* [S-Animation bei Aenniway](https://maybegeek.github.io/Aenniway/akzidenz/s-shape.htm)
+
 ## Autoren
 
 Anna-Lisa Wehmann & Christoph Pfeiffer
