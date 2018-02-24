@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Aenniway-Web';
+  src: url('https://cdn.rawgit.com/maybegeek/Aenniway/master/Webfont/Aenniway-Regular-Web.eot');
+  src: url('https://cdn.rawgit.com/maybegeek/Aenniway/master/Webfont/Aenniway-Regular-Web.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.rawgit.com/maybegeek/Aenniway/master/Webfont/Aenniway-Regular-Web.woff2') format('woff2'),
+    url('https://cdn.rawgit.com/maybegeek/Aenniway/master/Webfont/Aenniway-Regular-Web.woff') format('woff'),
+    url('https://cdn.rawgit.com/maybegeek/Aenniway/master/Webfont/Aenniway-Regular-Web.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aenniway-Web';
+  src: url('https://cdn.rawgit.com/maybegeek/Aenniway/master/Webfont/Aenniway-Bold-Web.eot');
+  src: url('https://cdn.rawgit.com/maybegeek/Aenniway/master/Webfont/Aenniway-Bold-Web.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.rawgit.com/maybegeek/Aenniway/master/Webfont/Aenniway-Bold-Web.woff2') format('woff2'),
+    url('https://cdn.rawgit.com/maybegeek/Aenniway/master/Webfont/Aenniway-Bold-Web.woff') format('woff'),
+    url('https://cdn.rawgit.com/maybegeek/Aenniway/master/Webfont/Aenniway-Bold-Web.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  /*background-color: rgba(155, 89, 182,1.0);*/
+  background-color: #e67e22;
+}
+
+header {
+  color: white;
+  padding-top: 1.6em;
+  line-height: 1;
+  font-family: 'Aenniway-Web';
+  font-size: 2.4em;
+}
+
+main figure {
+  padding-bottom: 4em;
+  border-bottom: 1px dashed white;
+}
+
+main figure figcaption {
+  color: white;
+  font-size: 1.9em;
+  padding-top: 2em;
+  line-height: 1.2;
+}
+
+main figure figcaption a {
+  color: white;
+}
+
+main figure svg {
+  color: white;
+}
+
+main figure svg.outline {
+  color: transparent;
+  stroke: white;
+  stroke-width: 3px;
+}
+
+figcaption.aenn {
+  font-family: 'Aenniway-Web';
+  font-size: 2.3em;
+}
+
+figcaption.cedar {
+  font-family: 'Cedarville Cursive';
+}
+
+figcaption.dawn {
+  font-family: 'Dawning of a New Day';
+  font-size: 2.2em;
+}
+
+figcaption.herr {
+  font-family: 'Herr von Muellerhoff';
+  font-size: 2.4em;
+}
+
+figcaption.home {
+  font-family: 'Homemade Apple';
+}
+
+figcaption.meddon {
+  font-family: 'Meddon';
+  font-size: 1.5em;
+}
+
+figcaption.dela {
+  font-family: 'Mrs Saint Delafield';
+  font-size: 2.3em;
+}
+
+figcaption.rouge {
+  font-family: 'Rouge Script';
+  font-size: 2.2em;
+}
+
+figcaption.ruge {
+  font-family: 'Ruge Boogie';
+  font-size: 2.2em;
+}
