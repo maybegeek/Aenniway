@@ -1,0 +1,262 @@
+@font-face {
+  font-family: 'Aenniway-Web';
+  src: url('https://cdn.rawgit.com/maybegeek/Aenniway/master/Webfont/Aenniway-Bold-Web.eot');
+  src: url('https://cdn.rawgit.com/maybegeek/Aenniway/master/Webfont/Aenniway-Bold-Web.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.rawgit.com/maybegeek/Aenniway/master/Webfont/Aenniway-Bold-Web.woff2') format('woff2'),
+    url('https://cdn.rawgit.com/maybegeek/Aenniway/master/Webfont/Aenniway-Bold-Web.woff') format('woff'),
+    url('https://cdn.rawgit.com/maybegeek/Aenniway/master/Webfont/Aenniway-Bold-Web.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 12px;
+  background-color: #16a085;
+  color: white;
+  font-size: 200%;
+}
+
+span.f.name a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(8, 1fr);
+  margin-bottom: 12px;
+}
+
+header p.intro {
+  font-family: 'Mukta Malar', sans-serif;
+  grid-column: span 7;
+  line-height: 1.16;
+}
+
+footer {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+footer p {
+  font-family: 'Mukta Malar', sans-serif;
+  grid-column: span 7;
+  line-height: 1.16;
+  font-size: 80%;
+}
+
+main div {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(8, 1fr);
+  margin-bottom: 12px;
+  font-size: 200%;
+}
+
+main div span.name {
+  grid-column: span 4;
+  line-height: 0.8;
+  font-size: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.meta > span {
+  color: white;
+  text-shadow: 0px 0px 20px #9b59b6;
+}
+
+.aenn span.f {
+  font-family: 'Aenniway-Web', cursive;
+  font-size: 1.1em;
+}
+
+.t000 span.f { font-family: 'Pangolin', cursive; }
+.t001 span.f { font-family: 'Euphoria Script', cursive; }
+.t002 span.f { font-family: 'Courgette', cursive; }
+.t003 span.f { font-family: 'Aladin', cursive; }
+.t004 span.f { font-family: 'Quintessential', cursive; }
+.t005 span.f { font-family: 'Itim', cursive; }
+.t006 span.f { font-family: 'Grand Hotel', cursive; }
+.t007 span.f { font-family: 'Kavivanar', cursive; }
+.t008 span.f { font-family: 'Short Stack', cursive; }
+.t009 span.f { font-family: 'Lateef', cursive; }
+.t010 span.f { font-family: 'Shadows Into Light', cursive; }
+.t011 span.f { font-family: 'Caveat', cursive; }
+.t012 span.f { font-family: 'Handlee', cursive; }
+.t013 span.f { font-family: 'Covered By Your Grace', cursive; }
+.t014 span.f { font-family: 'Berkshire Swash', cursive; }
+.t015 span.f { font-family: 'Devonshire', cursive; }
+.t016 span.f { font-family: 'Amatic SC', cursive; }
+.t017 span.f { font-family: 'Cookie', cursive; }
+.t018 span.f { font-family: 'Annie Use Your Telescope', cursive; }
+.t019 span.f { font-family: 'League Script', cursive; }
+.t020 span.f { font-family: 'Leckerli One', cursive; }
+.t021 span.f { font-family: 'Delius Unicase', cursive; }
+.t022 span.f { font-family: 'Sedgwick Ave Display', cursive; }
+.t023 span.f { font-family: 'Permanent Marker', cursive; }
+.t024 span.f { font-family: 'Pacifico', cursive; }
+.t025 span.f { font-family: 'Engagement', cursive; }
+.t026 span.f { font-family: 'Neucha', cursive; }
+.t027 span.f { font-family: 'Niconne', cursive; }
+.t028 span.f { font-family: 'Arizonia', cursive; }
+.t029 span.f { font-family: 'Rochester', cursive; }
+.t030 span.f { font-family: 'Pinyon Script', cursive; }
+.t031 span.f { font-family: 'Rock Salt', cursive; }
+.t032 span.f { font-family: 'Amita', cursive; }
+.t033 span.f { font-family: 'Butterfly Kids', cursive; }
+.t034 span.f { font-family: 'Dr Sugiyama', cursive; }
+.t035 span.f { font-family: 'Rouge Script', cursive; }
+.t036 span.f { font-family: 'Sacramento', cursive; }
+.t037 span.f { font-family: 'Petit Formal Script', cursive; }
+.t038 span.f { font-family: 'Great Vibes', cursive; }
+.t039 span.f { font-family: 'Monsieur La Doulaise', cursive; }
+.t040 span.f { font-family: 'Aguafina Script', cursive; }
+.t041 span.f { font-family: 'Satisfy', cursive; }
+.t042 span.f { font-family: 'Eagle Lake', cursive; }
+.t043 span.f { font-family: 'Stalemate', cursive; }
+.t044 span.f { font-family: 'Dancing Script', cursive; }
+.t045 span.f { font-family: 'Julee', cursive; }
+.t046 span.f { font-family: 'Kalam', cursive; }
+.t047 span.f { font-family: 'Yellowtail', cursive; }
+.t048 span.f { font-family: 'Sedgwick Ave', cursive; }
+.t049 span.f { font-family: 'Shadows Into Light Two', cursive; }
+.t050 span.f { font-family: 'Redressed', cursive; }
+.t051 span.f { font-family: 'Tangerine', cursive; }
+.t052 span.f { font-family: 'Calligraffitti', cursive; }
+.t053 span.f { font-family: 'Ruthie', cursive; }
+.t054 span.f { font-family: 'Dawning of a New Day', cursive; }
+.t055 span.f { font-family: 'Merienda', cursive; }
+.t056 span.f { font-family: 'Bad Script', cursive; }
+.t057 span.f { font-family: 'Parisienne', cursive; }
+.t058 span.f { font-family: 'Romanesco', cursive; }
+.t059 span.f { font-family: 'Herr Von Muellerhoff', cursive; }
+.t060 span.f { font-family: 'Sofia', cursive; }
+.t061 span.f { font-family: 'Mr De Haviland', cursive; }
+.t062 span.f { font-family: 'Crafty Girls', cursive; }
+.t063 span.f { font-family: 'The Girl Next Door', cursive; }
+.t064 span.f { font-family: 'Rancho', cursive; }
+.t065 span.f { font-family: 'Mrs Saint Delafield', cursive; }
+.t066 span.f { font-family: 'Damion', cursive; }
+.t067 span.f { font-family: 'Delius Swash Caps', cursive; }
+.t068 span.f { font-family: 'Yesteryear', cursive; }
+.t069 span.f { font-family: 'Reenie Beanie', cursive; }
+.t070 span.f { font-family: 'Indie Flower', cursive; }
+.t071 span.f { font-family: 'Patrick Hand', cursive; }
+.t072 span.f { font-family: 'Italianno', cursive; }
+.t073 span.f { font-family: 'Sriracha', cursive; }
+.t074 span.f { font-family: 'Kaushan Script', cursive; }
+.t075 span.f { font-family: 'Waiting for the Sunrise', cursive; }
+.t076 span.f { font-family: 'Fondamento', cursive; }
+.t077 span.f { font-family: 'Kristi', cursive; }
+.t078 span.f { font-family: 'Just Another Hand', cursive; }
+.t079 span.f { font-family: 'Walter Turncoat', cursive; }
+.t080 span.f { font-family: 'Just Me Again Down Here', cursive; }
+.t081 span.f { font-family: 'Alex Brush', cursive; }
+.t082 span.f { font-family: 'Jim Nightshade', cursive; }
+.t083 span.f { font-family: 'Lovers Quarrel', cursive; }
+.t084 span.f { font-family: 'Cedarville Cursive', cursive; }
+.t085 span.f { font-family: 'Qwigley', cursive; }
+.t086 span.f { font-family: 'Vibur', cursive; }
+.t087 span.f { font-family: 'Felipa', cursive; }
+.t088 span.f { font-family: 'Bonbon', cursive; }
+.t089 span.f { font-family: 'Allura', cursive; }
+.t090 span.f { font-family: 'Over the Rainbow', cursive; }
+.t091 span.f { font-family: 'Merienda One', cursive; }
+.t092 span.f { font-family: 'Coming Soon', cursive; }
+.t093 span.f { font-family: 'Princess Sofia', cursive; }
+.t094 span.f { font-family: 'Delius', cursive; }
+.t095 span.f { font-family: 'Clicker Script', cursive; }
+.t096 span.f { font-family: 'Meddon', cursive; }
+.t097 span.f { font-family: 'Gloria Hallelujah', cursive; }
+.t098 span.f { font-family: 'La Belle Aurore', cursive; }
+.t099 span.f { font-family: 'Miss Fajardose', cursive; }
+.t100 span.f { font-family: 'Condiment', cursive; }
+.t101 span.f { font-family: 'Ruge Boogie', cursive; }
+.t102 span.f { font-family: 'Architects Daughter', cursive; }
+.t103 span.f { font-family: 'Bilbo Swash Caps', cursive; }
+.t104 span.f { font-family: 'Schoolbell', cursive; }
+.t105 span.f { font-family: 'Marck Script', cursive; }
+.t106 span.f { font-family: 'Give You Glory', cursive; }
+.t107 span.f { font-family: 'Dekko', cursive; }
+.t108 span.f { font-family: 'Zeyada', cursive; }
+.t109 span.f { font-family: 'Homemade Apple', cursive; }
+.t110 span.f { font-family: 'Tillana', cursive; }
+.t111 span.f { font-family: 'Meie Script', cursive; }
+.t112 span.f { font-family: 'Loved by the King', cursive; }
+.t113 span.f { font-family: 'Mr Bedfort', cursive; }
+.t114 span.f { font-family: 'Molle', cursive; }
+.t115 span.f { font-family: 'Mr Dafoe', cursive; }
+.t116 span.f { font-family: 'Swanky and Moo Moo', cursive; }
+.t117 span.f { font-family: 'Montez', cursive; }
+.t118 span.f { font-family: 'Norican', cursive; }
+.t119 span.f { font-family: 'Bilbo', cursive; }
+.t120 span.f { font-family: 'Mrs Sheppards', cursive; }
+.t121 span.f { font-family: 'Gochi Hand', cursive; }
+.t122 span.f { font-family: 'Lakki Reddy', cursive; }
+.t123 span.f { font-family: 'Nothing You Could Do', cursive; }
+.t124 span.f { font-family: 'Sunshiney', cursive; }
+.t125 span.f { font-family: 'Patrick Hand SC', cursive; }
+.t126 span.f { font-family: 'Caveat Brush', cursive; }
+.t127 span.f { font-family: 'Sue Ellen Francisco', cursive; }
+
+@media (max-width:660px) {
+  header p.intro {
+    grid-column: span 8;
+  }
+  main div {
+    margin-bottom: 12%;
+    font-size: 280%;
+  }
+  main div span {
+    justify-content: center;
+    align-content: center;
+    align-items: baseline;
+  }
+  main div span.name {
+    grid-column: span 8;
+    justify-content: center;
+    text-align: center;
+    font-size: 50%;
+  }
+  main div span.smallsz {
+    grid-column: span 3;
+    justify-content: center;
+    text-align: right;
+    padding-right: 7%;
+  }
+  main div span.bigsz {
+    text-align: center;
+  }
+  main div span.bigs {
+    text-align: center;
+  }
+  main div span.smalls {
+    grid-column: span 3;
+    justify-content: center;
+    text-align: left;
+    padding-left: 7%;
+  }
+}
+
+@media (max-width: 600px) {
+  main div {
+    font-size: 260%;
+  }
+}
+
+@media (max-width: 500px) {
+  main div {
+    font-size: 250%;
+  }
+}
+
+@media (max-width: 450px) {
+  main div {
+    font-size: 240%;
+  }
+}
