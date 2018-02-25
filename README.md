@@ -34,7 +34,7 @@ oder direkt auf den aktuellen Stand verlinkend:
 ```
 in der `CSS`-Datei bezogen auf einen Selektor (hier `HTML` verwendend)
 
-```css {
+```css
 html {
   font-family: "Aenniway-Web", cursive;
 }
