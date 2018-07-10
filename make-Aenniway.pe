@@ -1,0 +1,34 @@
+#!/usr/bin/fontforge
+#
+# make-Aenniway
+# FontForge ist installiert, dann können mittels dieses Skripts, bei
+# entsprechend angelegten Ordnern (TTF, OTF, Webfont), die Schriftschnitte
+# in den entsprechenden Formaten angelegt werden.
+# auzurufen mittels `./make-Aenniway.pe *.sfd`
+#
+i=1
+while ( i<$argc )
+  Open($argv[i])
+  SetFontNames('', '', '', '', 'Anna-Lisa Wehmann & Christoph Pfeiffer', '1.7')
+  SelectAll()
+  ClearHints()
+  Save()
+  AddExtrema()
+  Save()
+  AutoHint()
+  Save()
+  AddExtrema()
+  Save()
+##  Simplify()
+##  AddExtrema()
+##  ClearHints()
+##  AutoHint()
+  Generate('TTF/' + $argv[i]:r + ".ttf")
+  Generate('OTF/' + $argv[i]:r + ".otf")
+  Generate('Webfont/' + $argv[i]:r + "-Web.eot")
+  Generate('Webfont/' + $argv[i]:r + "-Web.ttf")
+  Generate('Webfont/' + $argv[i]:r + "-Web.woff")
+  Generate('Webfont/' + $argv[i]:r + "-Web.woff2")
+  Generate('Webfont/' + $argv[i]:r + "-Web.svg")
+  i = i+1
+endloop
