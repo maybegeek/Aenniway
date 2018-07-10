@@ -5,7 +5,8 @@
   src: url('../Webfont/Aenniway-BoldItalic-Web.eot?#iefix') format('embedded-opentype'),
     url('../Webfont/Aenniway-BoldItalic-Web.woff2') format('woff2'),
     url('../Webfont/Aenniway-BoldItalic-Web.woff') format('woff'),
-    url('../Webfont/Aenniway-BoldItalic-Web.ttf') format('truetype');
+    url('../Webfont/Aenniway-BoldItalic-Web.ttf') format('truetype'),
+    url('../Webfont/Aenniway-BoldItalic-Web.svg') format('svg');
   font-weight: bold;
   font-style: italic;
 }
@@ -16,7 +17,8 @@
   src: url('../Webfont/Aenniway-Regular-Web.eot?#iefix') format('embedded-opentype'),
     url('../Webfont/Aenniway-Regular-Web.woff2') format('woff2'),
     url('../Webfont/Aenniway-Regular-Web.woff') format('woff'),
-    url('../Webfont/Aenniway-Regular-Web.ttf') format('truetype');
+    url('../Webfont/Aenniway-Regular-Web.ttf') format('truetype'),
+    url('../Webfont/Aenniway-Regular-Web.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -27,7 +29,8 @@
   src: url('../Webfont/Aenniway-Italic-Web.eot?#iefix') format('embedded-opentype'),
     url('../Webfont/Aenniway-Italic-Web.woff2') format('woff2'),
     url('../Webfont/Aenniway-Italic-Web.woff') format('woff'),
-    url('../Webfont/Aenniway-Italic-Web.ttf') format('truetype');
+    url('../Webfont/Aenniway-Italic-Web.ttf') format('truetype'),
+    url('../Webfont/Aenniway-Italic-Web.svg') format('svg');
   font-weight: normal;
   font-style: italic;
 }
@@ -38,7 +41,8 @@
   src: url('../Webfont/Aenniway-Bold-Web.eot?#iefix') format('embedded-opentype'),
     url('../Webfont/Aenniway-Bold-Web.woff2') format('woff2'),
     url('../Webfont/Aenniway-Bold-Web.woff') format('woff'),
-    url('../Webfont/Aenniway-Bold-Web.ttf') format('truetype');
+    url('../Webfont/Aenniway-Bold-Web.ttf') format('truetype'),
+    url('../Webfont/Aenniway-Bold-Web.svg') format('svg');
   font-weight: bold;
   font-style: normal;
 }
