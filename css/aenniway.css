@@ -1,4 +1,4 @@
-/* bolditalic */
+/* bolditalic | Aenniway-Web | Aenniway-BoldItalic-Web */
 @font-face {
   font-family: 'Aenniway-Web';
   src: url('../Webfont/Aenniway-BoldItalic-Web.eot');
@@ -10,7 +10,7 @@
   font-weight: bold;
   font-style: italic;
 }
-/* regular */
+/* regular | Aenniway-Web | Aenniway-Regular-Web */
 @font-face {
   font-family: 'Aenniway-Web';
   src: url('../Webfont/Aenniway-Regular-Web.eot');
@@ -22,7 +22,7 @@
   font-weight: normal;
   font-style: normal;
 }
-/* italic */
+/* italic | Aenniway-Web | Aenniway-Italic-Web */
 @font-face {
   font-family: 'Aenniway-Web';
   src: url('../Webfont/Aenniway-Italic-Web.eot');
@@ -34,7 +34,7 @@
   font-weight: normal;
   font-style: italic;
 }
-/* bold */
+/* bold | Aenniway-Web | Aenniway-Bold-Web */
 @font-face {
   font-family: 'Aenniway-Web';
   src: url('../Webfont/Aenniway-Bold-Web.eot');

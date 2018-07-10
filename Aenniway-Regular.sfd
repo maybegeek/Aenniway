@@ -5,7 +5,7 @@ FamilyName: Aenniway
 Weight: Regular
 Copyright: Anna-Lisa Wehmann & Christoph Pfeiffer
 UComments: "Aenniway, liebevoll fontifizierte Handschrift.+AAoACgAA-Perfectly different artifacts of a summer emerge from the glyphs, from their loveable, purple lines through their rough edges and spikes.+AAoACgAA-https://maybegeek.github.io/Aenniway/"
-Version: 1.7
+Version: 1.7.1
 ItalicAngle: -11.9
 UnderlinePosition: -153
 UnderlineWidth: 51
@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1502261341
-ModificationTime: 1531239268
+ModificationTime: 1531240787
 PfmFamily: 65
 TTFWeight: 400
 TTFWidth: 5
@@ -930,7 +930,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "" "" "" "" "" "" "" "" "Perfectly different artifacts of a summer emerge from the glyphs, from their loveable, purple lines through their rough edges and spikes." "" "" "SIL Open Font License (OFL)"
+LangName: 1033 "" "" "" "" "" "" "" "" "" "" "Perfectly different artifacts of a summer emerge from the glyphs, from their loveable, purple lines through their rough edges and spikes." "" "https://github.com/maybegeek/Aenniway" "SIL Open Font License (OFL)"
 GaspTable: 1 65535 2 1
 Encoding: UnicodeFull
 Compacted: 1
@@ -939,6 +939,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
+WinInfo: 32 8 2
 BeginPrivate: 0
 EndPrivate
 Grid

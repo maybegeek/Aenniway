@@ -9,20 +9,22 @@
 i=1
 while ( i<$argc )
   Open($argv[i])
-  SetFontNames('', '', '', '', 'Anna-Lisa Wehmann & Christoph Pfeiffer', '1.7')
-  SelectAll()
-  ClearHints()
+  SetFontNames('', '', '', '', 'Anna-Lisa Wehmann & Christoph Pfeiffer', '1.7.1')
+##
+## folgende Zeilen sind interessant fuer groessere releases
+##
+#  SelectAll()
+#  ClearHints()
+#  Save()
+#  AddExtrema()
+#  Save()
+#  AutoHint()
+#  Save()
+#  AddExtrema()
+#  Save()
+##
+##
   Save()
-  AddExtrema()
-  Save()
-  AutoHint()
-  Save()
-  AddExtrema()
-  Save()
-##  Simplify()
-##  AddExtrema()
-##  ClearHints()
-##  AutoHint()
   Generate('TTF/' + $argv[i]:r + ".ttf")
   Generate('OTF/' + $argv[i]:r + ".otf")
   Generate('Webfont/' + $argv[i]:r + "-Web.eot")
