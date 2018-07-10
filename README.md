@@ -32,7 +32,7 @@ oder direkt auf den aktuellen Stand verlinkend:
 ```html
 <link rel="stylesheet" href="https://cdn.rawgit.com/maybegeek/Aenniway/master/css/aenniway.css">
 ```
-in der `CSS`-Datei bezogen auf einen Selektor (hier `HTML` verwendend)
+in der `CSS`-Datei bezogen auf einen Selektor (hier `<html>` verwendend)
 
 ```css
 html {
