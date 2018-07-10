@@ -5,7 +5,7 @@ Aenniway, liebevoll fontifizierte Handschrift!
 
 * fontifizierte Handschrift
 * in vier Schriftschnitten (regular, bold, bold-italic, italic)
-* `OTF`, `TTF`, Webfont+`CSS`
+* `OTF`, `TTF`, Webfont (`*.eot`, `*.woff2`, `*.woff`, `*.ttf`, `*.svg`) + `CSS`
 * ordentlicher Glyphenvorrat (151)
 * mit Kontextalternativen
 * mit Ligaturen
@@ -20,6 +20,12 @@ Alle Dateien können entweder über `git` (`git clone ...`), als gesammeltes Pak
 Für die Einbindung auf dem eigenen Rechner sind dann die beinhalteten Ordner `OTF` oder `TTF` interessant. Die darin enthaltenen Schriftschnittdateien nach Art des jeweiligen Betriebssystems installieren (oftmals reicht der Doppelklick, um Hinweise zur Installation zu erhalten).
 
 ## `HTML` und `CSS`
+
+Version 1.7.1:
+
+```html
+<link rel="stylesheet" href="https://cdn.rawgit.com/maybegeek/Aenniway/3aedf6bb/css/aenniway.css">
+```
 
 Version 1.5.01:
 
